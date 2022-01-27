@@ -70,6 +70,7 @@ def get_section_courses(driver,dept_value):
     driver.find_element(By.ID,"edDisplay").click()
     courses_table = driver.find_elements(By.CLASS_NAME,"ptext")[3].find_elements(By.TAG_NAME,"tr")
     driver.implicitly_wait(5)
+    logging.info("section {} has {} classes.".format(dept_value,len(courses_table)))
     return len(courses_table)
         
 def save_to_file(driver):

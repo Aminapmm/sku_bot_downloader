@@ -82,3 +82,20 @@
  2022-01-28 02:48:20,954 - root - getting info about ØªÙˆÙ¾ÙˆÙ„ÙˆÚ˜ÙŠ Ø¬Ø¨Ø±ÙŠ 
  2022-01-28 02:48:26,006 - root - section 1902 has 7 classes.
  2022-01-28 02:48:26,678 - root - getting info about Ø¬Ø¨Ø± Ù‡Ù…ÙˆÙ„ÙˆÚ˜ÙŠÙƒ 
+ 2022-01-29 01:36:19,786 - root - Headless Firefox Initialized
+ 2022-01-29 01:40:02,143 - root - Headless Firefox Initialized
+ 2022-01-29 01:40:35,047 - root - Department 1903 has 106 classes.
+ 2022-01-29 01:40:40,047 - root - getting info about ÑíÇÖí 1 
+ 2022-01-29 01:41:08,153 - root - getting info about ÑíÇÖí 1 
+ 2022-01-29 01:41:43,583 - root - getting info about ÑíÇÖí 1 
+ 2022-01-29 01:52:26,525 - root - Headless Firefox Initialized
+ 2022-01-29 01:53:01,251 - root - Department 1903 has 106 classes.
+ 2022-01-29 01:54:37,695 - root - Headless Firefox Initialized
+ 2022-01-29 01:55:36,084 - root - Department 1903 has 106 classes.
+ 2022-01-29 01:55:38,799 - root - getting info about ÑíÇÖí 1 
+ 2022-01-29 01:56:35,232 - root - getting info about ÑíÇÖí 1 
+ 2022-01-29 02:07:23,522 - root - Headless Firefox Initialized
+ 2022-01-29 02:07:45,147 - root - Headless Firefox Initialized
+ 2022-01-29 02:07:55,825 - root - Department 1903 has 106 classes.
+ 2022-01-29 02:07:56,800 - root - getting info about ÑíÇÖí 1 
+ 2022-01-29 02:08:03,031 - root - getting info about ÑíÇÖí 1 

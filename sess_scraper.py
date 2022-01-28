@@ -12,6 +12,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import hashlib
 from bs4 import BeautifulSoup as bs
 import csv
 import pandas as pd
@@ -31,6 +34,8 @@ logging.basicConfig(level=logging.INFO, filename=os.path.join(HOME, 'sesslog.txt
 chars = list(string.ascii_lowercase + string.ascii_uppercase + string.digits)
 url = "https://sess.sku.ac.ir/X3/SessWay/Script/Login.aspx"
 firefox_driver_path = os.path.join(HOME, "geckodriver")
+# firefox_driver_path = "C:/Users/Amin/Desktop/tmp/geckodriver.exe"
+
 USERNAME = "s981901102"
 PASSWORD = "@minahmadpour80"
 s = Service(firefox_driver_path)
@@ -38,6 +43,7 @@ options = Options()
 options.headless = True
 driver = webdriver.Firefox(service=s, options=options)
 driver.get(url)
+driver.maximize_window()
 logging.info("Headless Firefox Initialized")
 assert "ورود به سیستم" in driver.title
 
@@ -78,10 +84,12 @@ def get_section_courses(driver, dept_value):
     return len(courses_table)
 
 
-def save_to_file(driver):
-    file_path = os.path.join(HOME, 'files', "{}.html".format("".join(random.sample(chars, 8))))
-    f = codecs.open(file_path, "w", "utf−8")
-    f.write(driver.page_source)
+def save_to_file(driver, name):
+    name2hash = hashlib.md5(name.encode()).hexdigest()
+    if not os.path.exists(os.path.join(HOME, "{}.html".format(name2hash))):
+        file_path = os.path.join(HOME, 'files', "{}.html".format(name2hash))
+        f = codecs.open(file_path, "w", "utf−8")
+        f.write(driver.page_source)
 
 
 def get_course(driver, course):
@@ -90,11 +98,15 @@ def get_course(driver, course):
     elem = driver.find_elements(By.CLASS_NAME, "ptext")[3].find_elements(By.TAG_NAME, "tr")[course]
     ActionChains(driver).move_to_element(elem).click().perform()
     # assert "مشخصات کلاس" in driver.find_element(By.CLASS_NAME,"title_of_page").text
-    logging.info("getting info about %s " % (driver.find_element(By.ID, "edName").text))
     driver.implicitly_wait(2)
+
+    edname = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "edName")))
+
+    logging.info("getting info about %s " % (edname.text))
+    # driver.implicitly_wait(2)
     time.sleep(3)
     driver.refresh()
-    save_to_file(driver)
+    save_to_file(driver, edname.text)
     driver.find_element(By.ID, "edRet").click()
     driver.implicitly_wait(2)
     assert "ليست کلاس هاي تعريف شده" in driver.find_element(By.CLASS_NAME, "title_of_page").text
@@ -114,5 +126,6 @@ if __name__ == "__main__":
                 get_course(driver, course)
             dept_values.pop(0)
             np.save('ex', dept_values)
-    except Exception:
+    except Exception as e:
+        # print(e)
         driver.quit()

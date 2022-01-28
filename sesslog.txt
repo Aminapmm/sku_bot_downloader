@@ -1,0 +1,84 @@
+ 2022-01-28 02:27:24,694 - root - Headless Firefox Initialized
+ 2022-01-28 02:29:20,202 - root - Headless Firefox Initialized
+ 2022-01-28 02:29:47,487 - root - section 1902 has 10 classes.
+ 2022-01-28 02:29:50,295 - root - section 1902 has 10 classes.
+ 2022-01-28 02:29:53,805 - root - getting info about جبر پيشرفته 
+ 2022-01-28 02:30:18,606 - root - section 1902 has 10 classes.
+ 2022-01-28 02:30:25,594 - root - getting info about توپولوژي جبري 
+ 2022-01-28 02:30:48,986 - root - section 1902 has 10 classes.
+ 2022-01-28 02:30:55,036 - root - getting info about جبر همولوژيك 
+ 2022-01-28 02:31:16,995 - root - section 1902 has 10 classes.
+ 2022-01-28 02:31:19,335 - root - getting info about آناليز تابعي (1) 
+ 2022-01-28 02:31:41,538 - root - section 1902 has 10 classes.
+ 2022-01-28 02:31:43,416 - root - getting info about آناليز حقيقي (2) 
+ 2022-01-28 02:32:19,200 - root - section 1902 has 10 classes.
+ 2022-01-28 02:32:23,128 - root - getting info about نظريه نقطه ثابت 
+ 2022-01-28 02:32:35,061 - root - section 1902 has 10 classes.
+ 2022-01-28 02:32:37,935 - root - getting info about مباحثي ويژه در آناليز تابعي 
+ 2022-01-28 02:32:46,277 - root - section 1001 has 13 classes.
+ 2022-01-28 02:32:47,010 - root - section 1001 has 13 classes.
+ 2022-01-28 02:32:54,668 - root - getting info about محاسبات عددي 
+ 2022-01-28 02:33:13,240 - root - section 1001 has 13 classes.
+ 2022-01-28 02:33:20,230 - root - getting info about رياضي مهندسي 
+ 2022-01-28 02:33:35,425 - root - section 1001 has 13 classes.
+ 2022-01-28 02:33:38,395 - root - getting info about رياضي مهندسي 
+ 2022-01-28 02:33:59,485 - root - section 1001 has 13 classes.
+ 2022-01-28 02:34:05,319 - root - getting info about مباني مهندسي برق 
+ 2022-01-28 02:34:15,290 - root - section 1001 has 13 classes.
+ 2022-01-28 02:34:20,763 - root - getting info about ترموديناميک مواد 
+ 2022-01-28 02:34:36,517 - root - section 1001 has 13 classes.
+ 2022-01-28 02:34:44,131 - root - getting info about آزمايشگاه متالوگرافي 
+ 2022-01-28 02:35:00,659 - root - section 1001 has 13 classes.
+ 2022-01-28 02:35:03,658 - root - getting info about متالورژي فيزيکي 2 
+ 2022-01-28 02:35:14,733 - root - section 1001 has 13 classes.
+ 2022-01-28 02:35:17,074 - root - getting info about اصول انجماد و ريخته گري 
+ 2022-01-28 02:35:35,482 - root - section 1001 has 13 classes.
+ 2022-01-28 02:35:37,692 - root - getting info about خواص مکانيکي مواد 1 
+ 2022-01-28 02:36:02,616 - root - section 1001 has 13 classes.
+ 2022-01-28 02:36:09,042 - root - getting info about آزمايشگاه مباني برق 1 
+ 2022-01-28 02:36:31,741 - root - section 1102 has 43 classes.
+ 2022-01-28 02:37:03,268 - root - section 1102 has 43 classes.
+ 2022-01-28 02:37:16,954 - root - getting info about بيماريهاي متابوليك دام 
+ 2022-01-28 02:37:32,639 - root - section 1102 has 43 classes.
+ 2022-01-28 02:37:33,392 - root - getting info about بيماريهاي طيور 
+ 2022-01-28 02:37:38,523 - root - section 1102 has 43 classes.
+ 2022-01-28 02:37:39,207 - root - getting info about بيماريهاي دروني دام بزرگ 
+ 2022-01-28 02:37:44,351 - root - section 1102 has 43 classes.
+ 2022-01-28 02:37:45,025 - root - getting info about بيماريهاي دورني دام كوچك 
+ 2022-01-28 02:37:50,123 - root - section 1102 has 43 classes.
+ 2022-01-28 02:37:50,854 - root - getting info about جراحي عمومي دامهاي بزرگ 
+ 2022-01-28 02:37:55,961 - root - section 1102 has 43 classes.
+ 2022-01-28 02:37:56,698 - root - getting info about مامايي دامپزشكي 
+ 2022-01-28 02:38:02,002 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:02,654 - root - getting info about بيماريهاي اندامهاي حركتي 
+ 2022-01-28 02:38:07,741 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:08,440 - root - getting info about كارورزي داخلي دامهاي بزرگ1 
+ 2022-01-28 02:38:13,530 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:14,197 - root - getting info about كارورزي داخلي دامهاي بزرگ1 
+ 2022-01-28 02:38:19,444 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:20,142 - root - getting info about كارورزي داخلي دامهاي كوچك1 
+ 2022-01-28 02:38:25,285 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:25,982 - root - getting info about كارورزي داخلي دامهاي كوچك1 
+ 2022-01-28 02:38:31,326 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:31,991 - root - getting info about كارورزي بيماريهاي طيور1 
+ 2022-01-28 02:38:37,153 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:37,778 - root - getting info about كارورزي بيماريهاي طيور1 
+ 2022-01-28 02:38:43,057 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:43,770 - root - getting info about كارورزي جراحي دامهاي بزرگ1 
+ 2022-01-28 02:38:48,854 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:49,489 - root - getting info about كارورزي جراحي دامهاي بزرگ1 
+ 2022-01-28 02:38:54,639 - root - section 1102 has 43 classes.
+ 2022-01-28 02:38:55,302 - root - getting info about كارورزي جراحي دامهاي كوچك1 
+ 2022-01-28 02:39:00,644 - root - section 1102 has 43 classes.
+ 2022-01-28 02:39:01,313 - root - getting info about كارورزي جراحي دامهاي كوچك1 
+ 2022-01-28 02:39:06,411 - root - section 1102 has 43 classes.
+ 2022-01-28 02:39:07,074 - root - getting info about كارورزي مامايي 1 
+ 2022-01-28 02:39:12,412 - root - section 1102 has 43 classes.
+ 2022-01-28 02:48:07,260 - root - Headless Firefox Initialized
+ 2022-01-28 02:48:13,803 - root - section 1902 has 7 classes.
+ 2022-01-28 02:48:14,349 - root - section 1902 has 7 classes.
+ 2022-01-28 02:48:15,037 - root - getting info about جبر پيشرفته 
+ 2022-01-28 02:48:20,249 - root - section 1902 has 7 classes.
+ 2022-01-28 02:48:20,954 - root - getting info about توپولوژي جبري 
+ 2022-01-28 02:48:26,006 - root - section 1902 has 7 classes.
+ 2022-01-28 02:48:26,678 - root - getting info about جبر همولوژيك 

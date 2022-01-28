@@ -28,7 +28,7 @@ HOME = os.path.join(os.path.dirname(__file__))
 logging.basicConfig(level=logging.INFO,filename=os.path.join(HOME,'sesslog.txt'),format=' %(asctime)s - %(name)s - %(message)s')
 chars = list(string.ascii_lowercase + string.ascii_uppercase + string.digits)
 url = "https://sess.sku.ac.ir/X3/SessWay/Script/Login.aspx"
-firefox_driver_path = os.path.join(HOME,"geckodriver.exe")
+firefox_driver_path = os.path.join(HOME,"geckodriver")
 USERNAME = "s981901102"
 PASSWORD = "@minahmadpour80"
 s = Service(firefox_driver_path)
@@ -70,7 +70,8 @@ def get_section_courses(driver,dept_value):
     driver.find_element(By.ID,"edDisplay").click()
     courses_table = driver.find_elements(By.CLASS_NAME,"ptext")[3].find_elements(By.TAG_NAME,"tr")
     driver.implicitly_wait(5)
-    logging.info("section {} has {} classes.".format(dept_value,len(courses_table)))
+    n=len(courses_table)-3
+    logging.info("section {} has {} classes.".format(dept_value,n))
     return len(courses_table)
         
 def save_to_file(driver):

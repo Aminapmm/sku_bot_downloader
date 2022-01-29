@@ -99,3 +99,181 @@
  2022-01-29 02:07:55,825 - root - Department 1903 has 106 classes.
  2022-01-29 02:07:56,800 - root - getting info about —Ì«÷Ì 1 
  2022-01-29 02:08:03,031 - root - getting info about —Ì«÷Ì 1 
+ 2022-01-29 12:56:57,960 - root - Headless Firefox Initialized
+ 2022-01-29 12:57:15,109 - root - Department 1903 has 106 classes.
+ 2022-01-29 12:57:18,839 - root - getting info about —Ì«÷Ì 1 
+ 2022-01-29 13:05:46,335 - root - Headless Firefox Initialized
+ 2022-01-29 13:05:59,667 - root - Department 1903 has 106 classes.
+ 2022-01-29 13:06:01,532 - root - getting info about —Ì«÷Ì 1 
+ 2022-01-29 13:08:41,259 - root - Headless Firefox Initialized
+ 2022-01-29 13:09:31,973 - root - Headless Firefox Initialized
+ 2022-01-29 13:11:11,304 - root - Headless Firefox Initialized
+ 2022-01-29 13:11:40,841 - root - Department 1903 has 2 classes.
+ 2022-01-29 13:11:41,365 - root - Department 1102 has 2 classes.
+ 2022-01-29 13:11:41,897 - root - Department 1104 has 2 classes.
+ 2022-01-29 13:11:42,420 - root - Department 1201 has 2 classes.
+ 2022-01-29 13:11:42,926 - root - Department 1203 has 2 classes.
+ 2022-01-29 13:11:43,452 - root - Department 1205 has 2 classes.
+ 2022-01-29 13:11:43,982 - root - Department 1207 has 2 classes.
+ 2022-01-29 13:11:44,536 - root - Department 1209 has 2 classes.
+ 2022-01-29 13:11:45,061 - root - Department 1301 has 2 classes.
+ 2022-01-29 13:11:45,431 - root - Department 1303 has 106 classes.
+ 2022-01-29 13:16:12,423 - root - Headless Firefox Initialized
+ 2022-01-29 13:16:25,771 - root - Department 1204 has 27 classes.
+ 2022-01-29 13:16:27,873 - root - getting info about »ÌÊ‘Ì„Ì ⁄„Ê„Ì 
+ 2022-01-29 13:16:36,406 - root -  saving html_doc <selenium.webdriver.remote.webelement.WebElement (session="55d636dd-956b-4a3d-b1d5-69ec249df974", element="6be87d5a-4b3c-462f-ba03-6c725b182890")> in files.
+ 2022-01-29 13:20:47,581 - root - Headless Firefox Initialized
+ 2022-01-29 13:22:09,086 - root - Headless Firefox Initialized
+ 2022-01-29 13:22:21,791 - root - Department 1204 has 27 classes.
+ 2022-01-29 13:22:23,506 - root - getting info about »ÌÊ‘Ì„Ì ⁄„Ê„Ì 
+ 2022-01-29 13:22:33,247 - root -  saving html_doc »ÌÊ‘Ì„Ì ⁄„Ê„Ì in files.
+ 2022-01-29 13:22:33,275 - root - html_doc »ÌÊ‘Ì„Ì ⁄„Ê„Ì saved to files.
+ 2022-01-29 13:22:46,032 - root - getting info about “»«‰  Œ’’Ì 
+ 2022-01-29 13:22:54,666 - root -  saving html_doc “»«‰  Œ’’Ì in files.
+ 2022-01-29 13:22:54,695 - root - html_doc “»«‰  Œ’’Ì saved to files.
+ 2022-01-29 13:23:03,584 - root - getting info about Õ‘—Â ‘‰«”Ì 2 
+ 2022-01-29 13:23:11,189 - root -  saving html_doc Õ‘—Â ‘‰«”Ì 2 in files.
+ 2022-01-29 13:23:11,220 - root - html_doc Õ‘—Â ‘‰«”Ì 2 saved to files.
+ 2022-01-29 13:23:18,830 - root - getting info about ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 
+ 2022-01-29 13:23:28,261 - root -  saving html_doc ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 in files.
+ 2022-01-29 13:23:28,294 - root - html_doc ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 saved to files.
+ 2022-01-29 13:27:31,292 - root - Headless Firefox Initialized
+ 2022-01-29 13:27:46,894 - root - Department 1204 has 27 classes.
+ 2022-01-29 13:27:48,743 - root - getting info about »ÌÊ‘Ì„Ì ⁄„Ê„Ì 
+ 2022-01-29 13:27:56,864 - root -  saving html_doc »ÌÊ‘Ì„Ì ⁄„Ê„Ì in files.
+ 2022-01-29 13:27:56,891 - root - html_doc »ÌÊ‘Ì„Ì ⁄„Ê„Ì saved to files.
+ 2022-01-29 13:27:59,927 - root - getting info about “»«‰  Œ’’Ì 
+ 2022-01-29 13:28:07,923 - root -  saving html_doc “»«‰  Œ’’Ì in files.
+ 2022-01-29 13:28:07,955 - root - html_doc “»«‰  Œ’’Ì saved to files.
+ 2022-01-29 13:28:10,368 - root - getting info about Õ‘—Â ‘‰«”Ì 2 
+ 2022-01-29 13:28:17,734 - root -  saving html_doc Õ‘—Â ‘‰«”Ì 2 in files.
+ 2022-01-29 13:28:17,768 - root - html_doc Õ‘—Â ‘‰«”Ì 2 saved to files.
+ 2022-01-29 13:28:21,566 - root - getting info about ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 
+ 2022-01-29 13:28:27,420 - root -  saving html_doc ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 in files.
+ 2022-01-29 13:28:27,456 - root - html_doc ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 saved to files.
+ 2022-01-29 13:28:34,135 - root - getting info about ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:28:41,416 - root -  saving html_doc ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:28:41,455 - root - html_doc ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:28:43,512 - root - getting info about ⁄„·Ì«  ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:28:51,537 - root -  saving html_doc ⁄„·Ì«  ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:28:51,568 - root - html_doc ⁄„·Ì«  ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:28:55,580 - root - getting info about »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:29:01,888 - root -  saving html_doc »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:29:01,920 - root - html_doc »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:29:06,305 - root - getting info about ⁄„·Ì«  »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:29:14,868 - root -  saving html_doc ⁄„·Ì«  »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:29:14,900 - root - html_doc ⁄„·Ì«  »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:29:18,372 - root - getting info about «’Ê· „œÌ—Ì  ¬›«  êÌ«ÂÌ 
+ 2022-01-29 13:29:26,228 - root -  saving html_doc «’Ê· „œÌ—Ì  ¬›«  êÌ«ÂÌ in files.
+ 2022-01-29 13:29:26,255 - root - html_doc «’Ê· „œÌ—Ì  ¬›«  êÌ«ÂÌ saved to files.
+ 2022-01-29 13:29:30,517 - root - getting info about «’Ê· „œÌ—Ì  »Ì„«—Ì Â«Ì êÌ«ÂÌ 
+ 2022-01-29 13:29:37,801 - root -  saving html_doc «’Ê· „œÌ—Ì  »Ì„«—Ì Â«Ì êÌ«ÂÌ in files.
+ 2022-01-29 13:29:37,832 - root - html_doc «’Ê· „œÌ—Ì  »Ì„«—Ì Â«Ì êÌ«ÂÌ saved to files.
+ 2022-01-29 13:29:42,719 - root - getting info about »Ì„«—Ì Â«Ì Å” «“ »—œ«‘  êÌ«Â«‰ 
+ 2022-01-29 13:29:48,757 - root -  saving html_doc »Ì„«—Ì Â«Ì Å” «“ »—œ«‘  êÌ«Â«‰ in files.
+ 2022-01-29 13:29:48,785 - root - html_doc »Ì„«—Ì Â«Ì Å” «“ »—œ«‘  êÌ«Â«‰ saved to files.
+ 2022-01-29 13:29:51,248 - root - getting info about „»«‰Ì »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ 
+ 2022-01-29 13:29:59,332 - root -  saving html_doc „»«‰Ì »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ in files.
+ 2022-01-29 13:29:59,360 - root - html_doc „»«‰Ì »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ saved to files.
+ 2022-01-29 13:30:03,352 - root - getting info about ”„ ‘‰«”Ì 
+ 2022-01-29 13:30:11,275 - root -  saving html_doc ”„ ‘‰«”Ì in files.
+ 2022-01-29 13:30:11,308 - root - html_doc ”„ ‘‰«”Ì saved to files.
+ 2022-01-29 13:30:15,036 - root - getting info about ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ 
+ 2022-01-29 13:30:24,091 - root -  saving html_doc ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ in files.
+ 2022-01-29 13:30:24,121 - root - html_doc ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ saved to files.
+ 2022-01-29 13:30:27,970 - root - getting info about »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì 
+ 2022-01-29 13:30:35,603 - root -  saving html_doc »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì in files.
+ 2022-01-29 13:30:35,640 - root - html_doc »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì saved to files.
+ 2022-01-29 13:30:39,450 - root - getting info about ¬›«  «‰»«—Ì 
+ 2022-01-29 13:30:51,349 - root -  saving html_doc ¬›«  «‰»«—Ì in files.
+ 2022-01-29 13:30:51,377 - root - html_doc ¬›«  «‰»«—Ì saved to files.
+ 2022-01-29 13:30:56,852 - root - getting info about ⁄„·Ì«  ”„ ‘‰«”Ì 
+ 2022-01-29 13:31:04,793 - root -  saving html_doc ⁄„·Ì«  ”„ ‘‰«”Ì in files.
+ 2022-01-29 13:31:04,824 - root - html_doc ⁄„·Ì«  ”„ ‘‰«”Ì saved to files.
+ 2022-01-29 13:49:24,980 - root - Headless Firefox Initialized
+ 2022-01-29 13:49:40,965 - root - Department 1204 has 27 classes.
+ 2022-01-29 13:49:42,256 - root - getting info about »ÌÊ‘Ì„Ì ⁄„Ê„Ì 
+ 2022-01-29 13:49:51,130 - root -  saving html_doc »ÌÊ‘Ì„Ì ⁄„Ê„Ì in files.
+ 2022-01-29 13:49:51,158 - root - html_doc »ÌÊ‘Ì„Ì ⁄„Ê„Ì saved to files.
+ 2022-01-29 13:49:55,837 - root - getting info about “»«‰  Œ’’Ì 
+ 2022-01-29 13:50:04,800 - root -  saving html_doc “»«‰  Œ’’Ì in files.
+ 2022-01-29 13:50:04,831 - root - html_doc “»«‰  Œ’’Ì saved to files.
+ 2022-01-29 13:50:10,988 - root - getting info about Õ‘—Â ‘‰«”Ì 2 
+ 2022-01-29 13:50:20,050 - root -  saving html_doc Õ‘—Â ‘‰«”Ì 2 in files.
+ 2022-01-29 13:50:20,151 - root - html_doc Õ‘—Â ‘‰«”Ì 2 saved to files.
+ 2022-01-29 13:50:24,795 - root - getting info about ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 
+ 2022-01-29 13:50:39,584 - root -  saving html_doc ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 in files.
+ 2022-01-29 13:50:39,616 - root - html_doc ⁄„·Ì«  Õ‘—Â ‘‰«”Ì 2 saved to files.
+ 2022-01-29 13:50:41,698 - root - getting info about ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:50:59,738 - root -  saving html_doc ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:50:59,766 - root - html_doc ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:51:03,450 - root - getting info about ⁄„·Ì«  ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:51:11,134 - root -  saving html_doc ⁄„·Ì«  ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:51:11,165 - root - html_doc ⁄„·Ì«  ÊÌ—Ê” ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:51:13,403 - root - getting info about »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:51:26,598 - root -  saving html_doc »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:51:26,633 - root - html_doc »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:51:29,836 - root - getting info about ⁄„·Ì«  »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì 
+ 2022-01-29 13:51:37,082 - root -  saving html_doc ⁄„·Ì«  »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì in files.
+ 2022-01-29 13:51:37,117 - root - html_doc ⁄„·Ì«  »«ò —Ì ‘‰«”Ì êÌ«ÂÌ „ﬁœ„« Ì saved to files.
+ 2022-01-29 13:51:39,691 - root - getting info about «’Ê· „œÌ—Ì  ¬›«  êÌ«ÂÌ 
+ 2022-01-29 13:51:53,069 - root -  saving html_doc «’Ê· „œÌ—Ì  ¬›«  êÌ«ÂÌ in files.
+ 2022-01-29 13:51:53,097 - root - html_doc «’Ê· „œÌ—Ì  ¬›«  êÌ«ÂÌ saved to files.
+ 2022-01-29 13:51:55,563 - root - getting info about «’Ê· „œÌ—Ì  »Ì„«—Ì Â«Ì êÌ«ÂÌ 
+ 2022-01-29 13:52:02,614 - root -  saving html_doc «’Ê· „œÌ—Ì  »Ì„«—Ì Â«Ì êÌ«ÂÌ in files.
+ 2022-01-29 13:52:02,649 - root - html_doc «’Ê· „œÌ—Ì  »Ì„«—Ì Â«Ì êÌ«ÂÌ saved to files.
+ 2022-01-29 13:52:04,753 - root - getting info about »Ì„«—Ì Â«Ì Å” «“ »—œ«‘  êÌ«Â«‰ 
+ 2022-01-29 13:52:12,540 - root -  saving html_doc »Ì„«—Ì Â«Ì Å” «“ »—œ«‘  êÌ«Â«‰ in files.
+ 2022-01-29 13:52:12,577 - root - html_doc »Ì„«—Ì Â«Ì Å” «“ »—œ«‘  êÌ«Â«‰ saved to files.
+ 2022-01-29 13:52:14,755 - root - getting info about „»«‰Ì »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ 
+ 2022-01-29 13:52:23,901 - root -  saving html_doc „»«‰Ì »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ in files.
+ 2022-01-29 13:52:23,930 - root - html_doc „»«‰Ì »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ saved to files.
+ 2022-01-29 13:52:26,685 - root - getting info about ”„ ‘‰«”Ì 
+ 2022-01-29 13:52:35,299 - root -  saving html_doc ”„ ‘‰«”Ì in files.
+ 2022-01-29 13:52:35,331 - root - html_doc ”„ ‘‰«”Ì saved to files.
+ 2022-01-29 13:52:41,824 - root - getting info about ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ 
+ 2022-01-29 13:52:49,600 - root -  saving html_doc ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ in files.
+ 2022-01-29 13:52:49,632 - root - html_doc ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ saved to files.
+ 2022-01-29 13:52:51,705 - root - getting info about »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì 
+ 2022-01-29 13:53:01,161 - root -  saving html_doc »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì in files.
+ 2022-01-29 13:53:01,188 - root - html_doc »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì saved to files.
+ 2022-01-29 13:53:04,771 - root - getting info about ¬›«  «‰»«—Ì 
+ 2022-01-29 13:53:12,725 - root -  saving html_doc ¬›«  «‰»«—Ì in files.
+ 2022-01-29 13:53:12,757 - root - html_doc ¬›«  «‰»«—Ì saved to files.
+ 2022-01-29 13:53:14,769 - root - getting info about ⁄„·Ì«  ”„ ‘‰«”Ì 
+ 2022-01-29 13:53:24,426 - root -  saving html_doc ⁄„·Ì«  ”„ ‘‰«”Ì in files.
+ 2022-01-29 13:53:24,452 - root - html_doc ⁄„·Ì«  ”„ ‘‰«”Ì saved to files.
+ 2022-01-29 13:55:27,227 - root - Headless Firefox Initialized
+ 2022-01-29 13:55:44,724 - root - Department 1204 has 27 classes.
+ 2022-01-29 13:55:46,446 - root - getting info about »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì 
+ 2022-01-29 13:55:54,039 - root -  saving html_doc »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì in files.
+ 2022-01-29 13:55:54,071 - root - html_doc »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì saved to files.
+ 2022-01-29 13:55:56,203 - root - getting info about ¬›«  «‰»«—Ì 
+ 2022-01-29 13:56:03,571 - root -  saving html_doc ¬›«  «‰»«—Ì in files.
+ 2022-01-29 13:56:03,602 - root - html_doc ¬›«  «‰»«—Ì saved to files.
+ 2022-01-29 13:56:05,659 - root - getting info about ⁄„·Ì«  ”„ ‘‰«”Ì 
+ 2022-01-29 13:56:13,244 - root -  saving html_doc ⁄„·Ì«  ”„ ‘‰«”Ì in files.
+ 2022-01-29 13:56:13,280 - root - html_doc ⁄„·Ì«  ”„ ‘‰«”Ì saved to files.
+ 2022-01-29 13:56:15,301 - root - getting info about ⁄„·Ì«  ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ 
+ 2022-01-29 13:56:22,386 - root -  saving html_doc ⁄„·Ì«  ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ in files.
+ 2022-01-29 13:56:22,411 - root - html_doc ⁄„·Ì«  ¬›«  „Â„ œ—Œ «‰ „ÌÊÂ saved to files.
+ 2022-01-29 13:56:24,636 - root - getting info about ⁄„·Ì«  »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì 
+ 2022-01-29 13:56:32,537 - root -  saving html_doc ⁄„·Ì«  »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì in files.
+ 2022-01-29 13:56:32,566 - root - html_doc ⁄„·Ì«  »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì saved to files.
+ 2022-01-29 13:56:36,110 - root - getting info about ⁄„·Ì«  »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì 
+ 2022-01-29 13:56:43,769 - root -  saving html_doc ⁄„·Ì«  »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì in files.
+ 2022-01-29 13:56:43,799 - root - html_doc ⁄„·Ì«  »Ì„«—Ì Â«Ì êÌ«Â«‰ “Ì‰ Ì° Ã«·Ì“ Ê ”»“Ì saved to files.
+ 2022-01-29 13:56:46,607 - root - getting info about ⁄„·Ì«  ¬›«  «‰»«—Ì 
+ 2022-01-29 13:56:54,156 - root -  saving html_doc ⁄„·Ì«  ¬›«  «‰»«—Ì in files.
+ 2022-01-29 13:56:54,186 - root - html_doc ⁄„·Ì«  ¬›«  «‰»«—Ì saved to files.
+ 2022-01-29 13:56:59,237 - root - getting info about ﬁ«—ç ‘‰«”Ì  ﬂ„Ì·Ì 
+ 2022-01-29 13:57:08,371 - root -  saving html_doc ﬁ«—ç ‘‰«”Ì  ﬂ„Ì·Ì in files.
+ 2022-01-29 13:57:08,398 - root - html_doc ﬁ«—ç ‘‰«”Ì  ﬂ„Ì·Ì saved to files.
+ 2022-01-29 13:57:12,883 - root - getting info about «’Ê· ‰„« œ‘‰«”Ì Ê ‰„« œÂ«Ì «‰ê· êÌ«ÂÌ 
+ 2022-01-29 13:57:21,642 - root -  saving html_doc «’Ê· ‰„« œ‘‰«”Ì Ê ‰„« œÂ«Ì «‰ê· êÌ«ÂÌ in files.
+ 2022-01-29 13:57:21,670 - root - html_doc «’Ê· ‰„« œ‘‰«”Ì Ê ‰„« œÂ«Ì «‰ê· êÌ«ÂÌ saved to files.
+ 2022-01-29 13:57:25,123 - root - getting info about —Ê‘ Â« Ê Ê”«Ì·  ÕﬁÌﬁ œ— »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ 
+ 2022-01-29 13:57:32,859 - root -  saving html_doc —Ê‘ Â« Ê Ê”«Ì·  ÕﬁÌﬁ œ— »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ in files.
+ 2022-01-29 13:57:32,892 - root - html_doc —Ê‘ Â« Ê Ê”«Ì·  ÕﬁÌﬁ œ— »Ì„«—Ì ‘‰«”Ì êÌ«ÂÌ saved to files.
+ 2022-01-29 13:57:35,531 - root - Department 1206 has 39 classes.
+ 2022-01-29 13:57:36,870 - root - getting info about „ÌÊÂ Â«Ì ê—„”Ì—Ì Ê ‰Ì„Â ê—„”Ì—Ì 

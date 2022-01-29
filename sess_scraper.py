@@ -34,13 +34,13 @@ logging.basicConfig(level=logging.INFO, filename=os.path.join(HOME, 'sesslog.txt
 chars = list(string.ascii_lowercase + string.ascii_uppercase + string.digits)
 url = "https://sess.sku.ac.ir/X3/SessWay/Script/Login.aspx"
 firefox_driver_path = os.path.join(HOME, "geckodriver")
-# firefox_driver_path = "C:/Users/Amin/Desktop/tmp/geckodriver.exe"
+#firefox_driver_path = "C:/Users/Amin/Desktop/tmp/geckodriver.exe"
 
 USERNAME = "s981901102"
 PASSWORD = "@minahmadpour80"
 s = Service(firefox_driver_path)
 options = Options()
-options.headless = True
+options.headless = False
 driver = webdriver.Firefox(service=s, options=options)
 driver.get(url)
 driver.maximize_window()
@@ -55,6 +55,7 @@ def login(driver, USERNAME, PASSWORD):
     username_field.send_keys(USERNAME)
     password_field.send_keys(PASSWORD)
     login_btn.click()
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "edflname")))
     assert "امين احمدپورمعرفي" == driver.find_element(By.ID, "edflname").text
 
 
@@ -96,21 +97,25 @@ def get_course(driver, course):
     driver.implicitly_wait(2)
     get_section_courses(driver, str(deptid))
     elem = driver.find_elements(By.CLASS_NAME, "ptext")[3].find_elements(By.TAG_NAME, "tr")[course]
+    #if not elem.is_displayed():
+    driver.execute_script("window.scrollTo(0, {})".format(elem.location['y']))
+
     ActionChains(driver).move_to_element(elem).click().perform()
     # assert "مشخصات کلاس" in driver.find_element(By.CLASS_NAME,"title_of_page").text
     driver.implicitly_wait(2)
-
     edname = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "edName")))
-
-    logging.info("getting info about %s " % (edname.text))
+    #print("ed name loaded")
+    logging.info("getting info about %s " % edname.text)
     # driver.implicitly_wait(2)
     time.sleep(3)
     driver.refresh()
-    save_to_file(driver, edname.text)
+    logging.info(" saving html_doc {} in files.".format(driver.find_element(By.ID, "edName").text))
+    save_to_file(driver, driver.find_element(By.ID, "edName").text)
+    logging.info("html_doc {} saved to files.".format(driver.find_element(By.ID, "edName").text))
     driver.find_element(By.ID, "edRet").click()
-    driver.implicitly_wait(2)
+    driver.implicitly_wait(5)
     assert "ليست کلاس هاي تعريف شده" in driver.find_element(By.CLASS_NAME, "title_of_page").text
-    driver.refresh()
+    #driver.refresh()
 
 
 if __name__ == "__main__":
@@ -127,5 +132,5 @@ if __name__ == "__main__":
             dept_values.pop(0)
             np.save('ex', dept_values)
     except Exception as e:
-        # print(e)
+        print(e)
         driver.quit()

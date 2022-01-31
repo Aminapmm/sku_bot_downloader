@@ -5,24 +5,24 @@ Created on Fri Jan 28 01:30:13 2022
 @author: Amin
 """
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+#from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
+#from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import hashlib
-from bs4 import BeautifulSoup as bs
-import csv
-import pandas as pd
+#from bs4 import BeautifulSoup as bs
+#import csv
+#import pandas as pd
 import logging
 import os
 import time
 import codecs
-import random
+#import random
 import string
 import numpy as np
 
@@ -81,13 +81,16 @@ def get_section_courses(driver, dept_value):
     driver.find_element(By.ID, "edDisplay").click()
     courses_table = driver.find_elements(By.CLASS_NAME, "ptext")[3].find_elements(By.TAG_NAME, "tr")
     driver.implicitly_wait(5)
-    n = len(courses_table) - 3
+    #n = len(courses_table) - 3
     return len(courses_table)
 
 
 def save_to_file(driver, name):
+
     name2hash = hashlib.md5(name.encode()).hexdigest()
     if not os.path.exists(os.path.join(HOME, "{}.html".format(name2hash))):
+        logging.info(" saving html_doc {} in files.".format(driver.find_element(By.ID, "edName").text))
+
         file_path = os.path.join(HOME, 'files', "{}.html".format(name2hash))
         f = codecs.open(file_path, "w", "utf−8")
         f.write(driver.page_source)
@@ -109,14 +112,12 @@ def get_course(driver, course):
     # driver.implicitly_wait(2)
     time.sleep(3)
     driver.refresh()
-    logging.info(" saving html_doc {} in files.".format(driver.find_element(By.ID, "edName").text))
     save_to_file(driver, driver.find_element(By.ID, "edName").text)
-    logging.info("html_doc {} saved to files.".format(driver.find_element(By.ID, "edName").text))
+    #logging.info("html_doc {} saved to files.".format(driver.find_element(By.ID, "edName").text))
     driver.find_element(By.ID, "edRet").click()
     driver.implicitly_wait(5)
     assert "ليست کلاس هاي تعريف شده" in driver.find_element(By.CLASS_NAME, "title_of_page").text
     #driver.refresh()
-
 
 if __name__ == "__main__":
     # departments = pd.read_excel("C:/Users/Amin/Desktop/tmp/sku_schedule.xlsx",encoding='utf-8-sig')

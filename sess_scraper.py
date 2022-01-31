@@ -40,7 +40,7 @@ USERNAME = "s981901102"
 PASSWORD = "@minahmadpour80"
 s = Service(firefox_driver_path)
 options = Options()
-options.headless = False
+options.headless = True
 driver = webdriver.Firefox(service=s, options=options)
 driver.get(url)
 driver.maximize_window()

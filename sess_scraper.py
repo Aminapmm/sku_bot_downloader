@@ -27,7 +27,7 @@ import string
 import numpy as np
 
 # HOME = "C:/Users/Amin/Desktop/tmp"
-HOME = os.path.join(os.path.dirname(__file__))
+HOME = os.path.dirname(__file__)
 
 logging.basicConfig(level=logging.INFO, filename=os.path.join(HOME, 'sesslog.txt'),
                     format=' %(asctime)s - %(name)s - %(message)s')
@@ -120,7 +120,6 @@ def get_course(driver, course):
     #driver.refresh()
 
 if __name__ == "__main__":
-    # departments = pd.read_excel("C:/Users/Amin/Desktop/tmp/sku_schedule.xlsx",encoding='utf-8-sig')
     try:
         dept_values = np.load(os.path.join(HOME, 'ex.npy')).tolist()
         login(driver, USERNAME, PASSWORD)
@@ -134,4 +133,5 @@ if __name__ == "__main__":
             np.save('ex', dept_values)
     except Exception as e:
         print(e)
+        logging.info(e)
         driver.quit()

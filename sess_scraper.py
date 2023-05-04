@@ -5,24 +5,18 @@ Created on Fri Jan 28 01:30:13 2022
 @author: Amin
 """
 from selenium import webdriver
-#from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-#from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import hashlib
-#from bs4 import BeautifulSoup as bs
-#import csv
-#import pandas as pd
 import logging
 import os
 import time
 import codecs
-#import random
 import string
 import numpy as np
 
@@ -45,7 +39,7 @@ driver = webdriver.Firefox(service=s, options=options)
 driver.get(url)
 driver.maximize_window()
 logging.info("Headless Firefox Initialized")
-assert "ورود به سیستم" in driver.title
+#assert "ورود به سیستم" in driver.title
 
 
 def login(driver, USERNAME, PASSWORD):

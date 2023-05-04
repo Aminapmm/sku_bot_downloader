@@ -5,16 +5,12 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from bs4 import BeautifulSoup as bs
-import csv
+import os
 
-# HOME = "C:/Users/Amin/Desktop/tmp"
-# HOME = os.path.dirname(__file__)
+HOME = os.path.dirname(__file__)
 
-# logging.basicConfig(level=logging.INFO, filename=os.path.join(HOME, 'sesslog.txt'),format=' %(asctime)s - %(name)s - %(message)s')
 url = "https://sess.sku.ac.ir/sess/12901415214"
-# firefox_driver_path = os.path.join(HOME, "geckodriver")
-firefox_driver_path = "C:/Users/Amin/sess_scrapper/geckodriver"
+firefox_driver_path = os.path.join(HOME, "geckodriver")
 
 s = Service(firefox_driver_path)
 options = Options()
@@ -35,18 +31,21 @@ def login(driver, USERNAME, PASSWORD):
     assert "امين احمدپورمعرفي" == driver.find_element(By.ID, "edflname").text
 
 
-def classroom_affairs(driver, row_n):
+def classroom_affairs(driver, subject):
     # ورود به امورکلاسی درس
     form_ = WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".bg-aqua .inner")))
     form_.click()
-    semester_check_list = driver.find_elements(By.TAG_NAME, 'tr')[3:]
-    ActionChains(driver).move_to_element(semester_check_list[row_n]).click().perform()
+    semester_check_list = driver.find_elements(By.CSS_SELECTOR, '#edMiddle td:nth-child(3)')
+    titles = {l.text: l for l in semester_check_list}
+    ActionChains(driver).move_to_element(titles[subject]).click().perform()
     driver.implicitly_wait(3)
     course_name = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "edCourseName"))).text
 
 
 def download_files(driver):
     files = driver.find_elements(By.CSS_SELECTOR, "#edListFolders .link")
+    if not files:
+        return "فایلی برای این درس وجود ندارد."
     for f in files:
         f.click()
 
@@ -58,10 +57,10 @@ def next_page(driver):
 
 
 if __name__ == '__main__':
-    USERNAME = ""  # Student number
-    PASSWORD = ""  # Password
+    USERNAME = input("شماره دانشجویی را وارد کنید:")  # Student number
+    PASSWORD = input("رمز عبور را وارد کنید:")  # Password
+    title = "فارسي عمومي"  # Resources to be downloaded
     login(driver, USERNAME, PASSWORD)
     driver.implicitly_wait(3)
-    row_n = 4
-    classroom_affairs(driver, row_n)
+    classroom_affairs(driver, title)
     download_files(driver)
